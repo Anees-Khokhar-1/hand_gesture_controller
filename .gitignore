@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# MediaPipe & OpenCV temp files
+*.pbtxt
+*.onnx
+
+# Build folders
+build/
+dist/
+
+# Python egg files
+*.egg-info/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
