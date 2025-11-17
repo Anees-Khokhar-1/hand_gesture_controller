@@ -1,17 +1,37 @@
-# Hand Gesture Controller
+# 🖐️ Hand Gesture Controller  
+Control your computer using hand gestures — volume, brightness, and mouse control — powered by MediaPipe & OpenCV.
 
-A real-time hand gesture control system using OpenCV + MediaPipe.
+This project uses **hand tracking** and **gesture recognition** to allow touch-free computer interaction.  
+It supports:
 
-### Features:
-- Control **volume** with pinch gesture
-- Control **brightness**
-- **Mouse control** with finger tracking
-- Click using pinch
+- 🎚️ Volume Control  
+- 💡 Screen Brightness Control  
+- 🖱️ Virtual Mouse (Move + Click)  
+- 📷 Real-Time Hand Landmark Detection  
 
-### Controls:
-- `v` → Volume mode  
-- `b` → Brightness mode  
-- `m` → Mouse mode  
-- `q` → Quit program
+---
 
-### Run:
+## 🚀 Features
+
+### ✋ Hand Tracking (MediaPipe)
+- Detects 21 hand landmarks in real time  
+- Smooth tracking with high accuracy  
+- Works on any webcam
+
+### 🖱️ Virtual Mouse
+- Move mouse using index finger  
+- Pinch gesture to perform left-click  
+- Auto-smoothing for stable cursor movement
+
+### 🎚️ Volume Control
+- Pinch gesture controls system volume  
+- Uses **PyCAW** for Windows audio control
+
+### 💡 Brightness Control
+- Adjust brightness using gesture distance  
+- Uses **screen_brightness_control**
+
+---
+
+## 📂 Project Structure
+
